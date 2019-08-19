@@ -17,6 +17,3 @@ node_modules
 package-lock.json
 *.log
 *.gz
-
-# express
-bin
