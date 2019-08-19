@@ -1,0 +1,36 @@
+body {
+  font: 1rem "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+h1 {
+  margin-top: 0.5rem;
+}
+.containerSeparator {
+  margin: 32px 0px;
+}
+.playgroundContainer {
+  margin: 1rem;
+}
+.parentContainer {
+  min-width: 200px;
+  min-height: 350px;
+}
+.parentContainer, .IframeContainer {
+  padding: 1rem;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+}
+.postMessage {
+	background-color:#202923;
+	border-radius:4px;
+	border:3px solid #202923;
+	color:#ffffff;
+	font-size:12px;
+	padding:10px 16px;
+}
+.postMessage:hover {
+  background: none;
+  color: #000;
+  border-color: #324036;
+}
+.postMessage:focus {
+	outline: none;
+}

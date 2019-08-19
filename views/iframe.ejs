@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Nested Iframe</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+    </head>
+    <body>
+        <div>
+            <h1>Iframe Document</h1>
+            <p>Click the button below to post a message to the parent window</p>
+            <button class="postMessage">Send message</button>
+        </div>
+        <div class='IframeMessageContainer'>
+            <p class="messageStatus">No message has been received yet</p>
+            <p>Message Type: <span class='messageType'>None</span></p>
+            <p>Message Data: <span class='messageData'>None</span></p>
+        </div>
+  		<script src='/iframe.js'></script>
+    </body>
+</html>

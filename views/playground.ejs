@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Iframe Playground</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+    </head>
+    <body>
+        <div class="playgroundContainer">
+            <div class="parentContainer">
+                <div>
+                    <h1>Parent Document</h1>
+                    <p>Click the button below to post a message to the iframe window</p>
+                    <button class="postMessage">Send message</button>
+                </div>      
+                <div class='parentMessageContainer'>
+                    <p class="messageStatus">No message has been received yet</p>
+                    <p>Message Type: <span class='messageType'>None</span></p>
+                    <p>Message Data: <span class='messageData'>None</span></p>
+                </div>
+            </div>
+            <hr class="containerSeparator"/>
+            <div class='IframeContainer'></div>
+        </div>
+        <script type="text/javascript" src="/playground.js"></script>
+    </body>
+</html>
